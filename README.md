@@ -1,46 +1,27 @@
-# Getting Started with Create React App
+#TypeScriptReact Brand 2022
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Remember, this is just the version 1.
 
-## Available Scripts
+I just finished watching and doing the hands-on project of the Traversy Media TypescriptC Crash Course and it was so awesome since I really understood the Typescript Programming language in it's finest.
 
-In the project directory, you can run:
+Since I am using React Framework I don't have to use the manual way of compiling Typescript to Javascript.
 
-### `npm start`
+But if I am dealing with vanilla Javascript Projects I would be dealing with 'tsc' command in the terminal!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+And also for me not to type every single time I should to use the 'tsc --watch' command in the terminal which was great if I am dealing vanilla Javascript.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# IMPORTANT THINGS TO KNOW ABOUT TYPESCRIPT!
 
-### `npm test`
+Since Typescript is just an extension of Javascript, every single thing that Javascript is, belongs in Typescript but more features are added. I added a repository in my github regarding the core features of typescript especially when you are dealing with vanilla javascript Projects!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# CREDITS
 
-### `npm run build`
+This project has :
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+HTML
+CSS
+JavaScript
+SASS/SCSS
+TypeScript
+TailwindCSS
+# typescriptreactbrand2022
