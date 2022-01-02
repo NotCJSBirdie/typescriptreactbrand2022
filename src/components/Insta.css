@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Quattrocento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Licorice&display=swap");
+
+#instatitle {
+  font-family: "Licorice", cursive;
+}
+
+#instausername {
+  font-family: "Quattrocento", serif;
+}

@@ -1,10 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quattrocento&display=swap");
 
-#brand {
-  font-family: "DM Serif Display", serif;
-}
-
-#headerlink {
+#copyright {
   font-family: "Quattrocento", serif;
 }

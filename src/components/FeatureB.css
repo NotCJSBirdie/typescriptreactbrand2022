@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Licorice&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quattrocento&display=swap");
+
+#feature2title {
+  text-align: left;
+  font-family: "Licorice", cursive;
+}
+
+#feature2p {
+  font-family: "Quattrocento", serif;
+}

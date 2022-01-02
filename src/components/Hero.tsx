@@ -1,46 +1,46 @@
-import React from "react";
+import Picture1 from "./assets/picture1.jpg";
+import Picture2 from "./assets/picture2.jpg";
+import Picture3 from "./assets/picture3.jpg";
+import "./Hero.css";
 
 const Hero = () => {
   return (
     <div>
-      <div className="container px-6 py-16 mx-auto">
-        <div className="items-center lg:flex">
-          <div className="w-full lg:w-1/2">
-            <div className="lg:max-w-lg">
-              <h1 className="text-2xl font-semibold text-gray-800 dark:text-white lg:text-3xl">
-                Subscribe To The{" "}
-                <span className="text-blue-500">Newsletter</span>
-              </h1>
-
-              <p className="mt-4 text-gray-600 dark:text-gray-400">
-                be the first to knows when our{" "}
-                <span className="font-medium text-blue-500">Brand</span> is live
-              </p>
-
-              <div className="flex flex-col mt-8 space-y-3 lg:space-y-0 lg:flex-row">
-                <input
-                  id="email"
-                  type="text"
-                  className="px-4 py-2 text-gray-700 bg-white border border-gray-300 rounded-lg dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"
-                  placeholder="Email Address"
-                />
-
-                <button className="w-full px-4 py-2 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-500 rounded-lg lg:w-auto lg:mx-4 hover:bg-blue-400 focus:outline-none focus:bg-blue-400">
-                  Subscribe
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
+      <section className="text-gray-600 body-font">
+        <div className="container mx-auto flex px-5 md:flex-row flex-col items-center">
+          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <img
-              className="w-full h-full max-w-md"
-              src="~/svg/assets/Email campaign-bro.svg"
-              alt="#"
+              src={Picture1}
+              className="m-0 p-0 z-0 relative top-32 w-full shadow-2xl"
+              alt="picture1"
+            />
+            <div className="z-10 relative bottom-48 right-32 border-2 border-black">
+              <div className="p-4 px-72 py-32"></div>
+            </div>
+            <img
+              src={Picture2}
+              className="m-0 p-0 z-50 relative bottom-64 left-96 w-72 h-72 shadow-2xl"
+              alt="picture2"
             />
           </div>
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <img
+              src={Picture3}
+              className="m-0 p-0 z-40 relative left-32  w-full h-72 shadow-2xl"
+              alt="picture2"
+            />
+            <div className="z-0 relative left-8 bottom-32 border-2 border-black">
+              <div className="p-4 px-72 py-32"></div>
+            </div>
+            <h1
+              id="maintitle"
+              className="z-50 relative bottom-52 text-5xl text-black"
+            >
+              Interior Design with heart and soul
+            </h1>
+          </div>
         </div>
-      </div>
+      </section>
     </div>
   );
 };

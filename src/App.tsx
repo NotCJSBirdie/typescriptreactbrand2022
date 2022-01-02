@@ -1,16 +1,25 @@
-import React from "react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import Features from "./components/Features";
+import Section1 from "./components/Section1";
+import FeatureA from "./components/FeatureA";
+import FeatureB from "./components/FeatureB";
+import FeatureC from "./components/FeatureC";
+import Newsletter from "./components/Newsletter";
+import Insta from "./components/Insta";
 import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
+    <div className="overflow-hidden">
       <Header />
       <Hero />
-      <Features />
+      <Section1 />
+      <FeatureA />
+      <FeatureB />
+      <FeatureC />
+      <Newsletter />
+      <Insta />
       <Footer />
     </div>
   );
